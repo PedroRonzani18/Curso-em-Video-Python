@@ -2,7 +2,7 @@
 109 porem mais organizado
 """
 
-from utilidades.dado import resumo
-  
+import dado
+
 p = float(input("Valor: "))
-resumo(p,10,13)
+dado.resumo(p, 10, 13)

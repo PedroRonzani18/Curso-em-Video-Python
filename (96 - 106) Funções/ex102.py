@@ -22,8 +22,6 @@ def fatorial(n, control):
             if(n > 1): print(f"x ",end='')
         fat *= n
         n -=1
-
-    
     return fat
     
 print(f'= {fatorial(int(input("Numero: ")),str(input("Quer ver o processo? [S/N] ")))}')

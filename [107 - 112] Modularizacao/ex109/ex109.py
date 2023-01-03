@@ -1,7 +1,7 @@
 """
 108 porem com valores formatados e mais viziveis
 """
-import moeda
+import ex112.utilidades.moeda as moeda
 
 p = float(input("Valor: "))
 print(f"Metade: {moeda.metade(p,True)}")

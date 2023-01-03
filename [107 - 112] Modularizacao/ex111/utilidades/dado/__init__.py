@@ -1,4 +1,4 @@
-import moeda
+import ex112.utilidades.moeda as moeda
 
 
 def resumo(preco, aumento, reducao):

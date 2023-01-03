@@ -50,7 +50,7 @@ def novaPessoa(path):
 
 def menu():
     
-    path = "dados/teste.txt"
+    path = "dados/dados.txt"
     
     while True:
         showMenu()

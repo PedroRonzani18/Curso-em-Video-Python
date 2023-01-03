@@ -1,5 +1,6 @@
 from lib.parser import *
 from time import sleep
+import os
 
 def linha(tam=42):
     return tam * "-"
@@ -65,4 +66,3 @@ def menu():
             case _: 
                 print("\033[31mERRO: digite um valor valido\n\033[m")
                 sleep(1)
-
